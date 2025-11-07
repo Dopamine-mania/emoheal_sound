@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Problem from './components/Problem';
@@ -7,8 +7,13 @@ import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import SignUp from './components/SignUp';
 import Footer from './components/Footer';
+import { initGA } from './lib/analytics';
 
 const App: React.FC = () => {
+  useEffect(() => {
+    initGA();
+  }, []);
+
   return (
     <div className="bg-slate-900 min-h-screen overflow-x-hidden relative">
       <div className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden">
