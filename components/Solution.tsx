@@ -40,19 +40,19 @@ const Solution: React.FC = () => {
           How EmoHeal Creates Your Personal Sanctuary
         </h2>
         <Feature
-          imageSrc="https://cdn.pixabay.com/photo/2025/11/07/11/24/11-24-06-90_1280.png"
+          imageSrc="https://iili.io/Kyu2YNV.png"
           title="1. Speak, Don't Type"
           description="Healing begins the moment you speak. Express yourself freely in a completely safe, private, and non-judgmental space."
           imageLeft={true}
         />
         <Feature
-          imageSrc="https://cdn.pixabay.com/photo/2025/11/07/11/42/11-42-35-577_1280.png"
+          imageSrc="https://iili.io/KyuBjOG.png"
           title="2. Feel Truly Understood"
           description="Our advanced AI goes beyond words, analyzing vocal nuances to identify 27 distinct emotions for profound validation."
           imageLeft={false}
         />
         <Feature
-          imageSrc="https://cdn.pixabay.com/photo/2025/11/07/12/20/12-20-55-25_1280.png"
+          imageSrc="https://iili.io/Kyun6ox.png"
           title="3. Heal with Generative Sound"
           description="Based on this deep understanding, EmoHeal instantly composes a therapeutic soundscape just for you. It's not from a library; it's created for your heart."
           imageLeft={true}
